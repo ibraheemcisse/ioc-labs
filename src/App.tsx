@@ -102,7 +102,7 @@ export default function App() {
             </a>
           </p>
           <p>AWS Community Builder · CKA · Terraform Associate</p>
-          <p>9,000+ engineers reached on LinkedIn in 48 hours</p>
+          <p>32,000+ engineers reached on LinkedIn in 72 hours</p>
         </div>
       </section>
 
@@ -110,10 +110,10 @@ export default function App() {
       <footer style={{padding: '64px 24px', maxWidth: '768px', margin: '0 auto'}}>
         <div style={{color: '#8b949e', fontSize: '0.85rem', lineHeight: 2}}>
           <p>Also available: technical writing, architecture diagrams, runbooks alongside real engineering work.</p>
-          <p>Open to full-time and contract SRE / DevOps / Platform Engineering roles. Remote or KL-based.</p>
+          <p>Open to full-time and contract SRE / DevOps / Cloud Engineering roles. Remote or relocation.</p>
           <div style={{marginTop: '24px', paddingTop: '24px', borderTop: '1px solid #21262d'}}>
-            <a href="mailto:ibrahim.umar.cisse@gmail.com" style={{color: '#00d9ff', textDecoration: 'none'}}>
-              ibrahim.umar.cisse@gmail.com
+            <a href="mailto:ibrahimcisse@ioc-labs.com" style={{color: '#00d9ff', textDecoration: 'none'}}>
+              ibrahimcisse@ioc-labs.com
             </a>
             {' · '}
             <a href="https://ioc-labs.com" style={{color: '#8b949e', textDecoration: 'none'}}>
