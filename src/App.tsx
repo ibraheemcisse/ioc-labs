@@ -1,122 +1,27 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
-import './App.css'
-
-function App() {
-  const [count, setCount] = useState(0)
-
+export default function App() {
   return (
-    <>
-      <section id="center">
-        <div className="hero">
-          <img src={heroImg} className="base" width="170" height="179" alt="" />
-          <img src={reactLogo} className="framework" alt="React logo" />
-          <img src={viteLogo} className="vite" alt="Vite logo" />
-        </div>
-        <div>
-          <h1>Get started</h1>
-          <p>
-            Edit <code>src/App.tsx</code> and save to test <code>HMR</code>
-          </p>
-        </div>
-        <button
-          type="button"
-          className="counter"
-          onClick={() => setCount((count) => count + 1)}
-        >
-          Count is {count}
-        </button>
-      </section>
-
-      <div className="ticks"></div>
-
-      <section id="next-steps">
-        <div id="docs">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#documentation-icon"></use>
-          </svg>
-          <h2>Documentation</h2>
-          <p>Your questions, answered</p>
-          <ul>
-            <li>
-              <a href="https://vite.dev/" target="_blank">
-                <img className="logo" src={viteLogo} alt="" />
-                Explore Vite
-              </a>
-            </li>
-            <li>
-              <a href="https://react.dev/" target="_blank">
-                <img className="button-icon" src={reactLogo} alt="" />
-                Learn more
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div id="social">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#social-icon"></use>
-          </svg>
-          <h2>Connect with us</h2>
-          <p>Join the Vite community</p>
-          <ul>
-            <li>
-              <a href="https://github.com/vitejs/vite" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#github-icon"></use>
-                </svg>
-                GitHub
-              </a>
-            </li>
-            <li>
-              <a href="https://chat.vite.dev/" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#discord-icon"></use>
-                </svg>
-                Discord
-              </a>
-            </li>
-            <li>
-              <a href="https://x.com/vite_js" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#x-icon"></use>
-                </svg>
-                X.com
-              </a>
-            </li>
-            <li>
-              <a href="https://bsky.app/profile/vite.dev" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#bluesky-icon"></use>
-                </svg>
-                Bluesky
-              </a>
-            </li>
-          </ul>
+    <div style={{fontFamily: 'monospace', background: '#0f1419', color: '#e6edf3', minHeight: '100vh'}}>
+      <section style={{padding: '120px 24px 80px', borderBottom: '1px solid #21262d', maxWidth: '768px', margin: '0 auto'}}>
+        <h1 style={{fontSize: 'clamp(2rem, 6vw, 4rem)', fontWeight: 'bold', lineHeight: 1.2, marginBottom: '32px'}}>
+          Your cluster looks healthy.<br/>
+          <span style={{color: '#00d9ff'}}>It might not be.</span>
+        </h1>
+        <p style={{color: '#8b949e', fontSize: '1.1rem', maxWidth: '600px', lineHeight: 1.8, marginBottom: '48px'}}>
+          Hidden failures in EKS clusters don't announce themselves.
+          They wait until a pod restarts, a volume reattaches, or a
+          deployment scales — then you have an incident with no obvious cause.
+        </p>
+        <div style={{display: 'flex', gap: '16px', flexWrap: 'wrap'}}>
+          <a href="https://calendly.com/ibrahim-umar-cisse/30min" target="_blank" rel="noopener noreferrer"
+            style={{background: '#00d9ff', color: '#0f1419', padding: '14px 28px', fontWeight: 'bold', textDecoration: 'none', fontSize: '0.95rem'}}>
+            Book a 30-min diagnostic
+          </a>
+          <a href="https://linkedin.com/in/ibraheemcisse" target="_blank" rel="noopener noreferrer"
+            style={{border: '1px solid #30363d', color: '#e6edf3', padding: '14px 28px', textDecoration: 'none', fontSize: '0.95rem'}}>
+            DM on LinkedIn
+          </a>
         </div>
       </section>
-
-      <div className="ticks"></div>
-      <section id="spacer"></section>
-    </>
-  )
+    </div>
+  );
 }
-
-export default App
