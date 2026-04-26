@@ -17,7 +17,7 @@ export default function App() {
           Most engineers find out something was broken when it causes an outage.
           I find it before that.
         </p>
-        <div style={{display: 'flex', gap: '16px', flexWrap: 'wrap'}}>
+        <div style={{display: 'flex', gap: '16px', flexWrap: 'wrap', alignItems: 'center'}}>
           <a href="https://calendly.com/ibrahim-umar-cisse/30min" target="_blank" rel="noopener noreferrer"
             style={{background: '#00d9ff', color: '#0f1419', padding: '14px 28px', fontWeight: 'bold', textDecoration: 'none', fontSize: '0.95rem'}}>
             Book a 30-min diagnostic
@@ -25,6 +25,10 @@ export default function App() {
           <a href="https://linkedin.com/in/ibraheemcisse" target="_blank" rel="noopener noreferrer"
             style={{border: '1px solid #30363d', color: '#e6edf3', padding: '14px 28px', textDecoration: 'none', fontSize: '0.95rem'}}>
             DM on LinkedIn
+          </a>
+          <a href="https://github.com/ibraheemcisse/aws-terraform-platform/blob/main/resume.md" target="_blank" rel="noopener noreferrer"
+            style={{border: '1px solid #30363d', color: '#8b949e', padding: '14px 28px', textDecoration: 'none', fontSize: '0.95rem'}}>
+            About me
           </a>
         </div>
       </section>
