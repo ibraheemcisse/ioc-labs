@@ -29,19 +29,6 @@ export default function App() {
         </div>
       </section>
 
-<a href="https://github.com/ibraheemcisse/aws-terraform-platform/blob/main/resume.md"
-  target="_blank"
-  rel="noopener noreferrer"
-  style={{
-    border: '1px solid #30363d',
-    color: '#8b949e',
-    padding: '14px 28px',
-    textDecoration: 'none',
-    fontSize: '0.95rem'
-  }}>
-  About me
-</a>
-
       {/* Video */}
       <section style={{padding: '80px 24px', borderBottom: '1px solid #21262d', maxWidth: '768px', margin: '0 auto'}}>
         <div style={{position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden'}}>
